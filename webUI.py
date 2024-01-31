@@ -243,4 +243,4 @@ for category, models in model_dict.items():
 
 
 webui = UVRWebUI(uvr, online_data_path='models/download_checks.json')
-webui.launch()
+webui.launch(share=True)
