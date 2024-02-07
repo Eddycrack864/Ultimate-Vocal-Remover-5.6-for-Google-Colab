@@ -40,5 +40,5 @@ samplerate==0.1.0
 screeninfo==0.8.1
 PySoundFile==0.9.0.post1; sys_platform != 'windows'
 SoundFile==0.9.0; sys_platform == 'windows'
-gradio == 3.19
+gradio==4.17.0
 onnx2pytorch
