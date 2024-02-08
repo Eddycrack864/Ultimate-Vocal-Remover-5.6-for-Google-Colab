@@ -149,7 +149,7 @@ class UVRWebUI:
                 "[![Duplicate this Space](https://huggingface.co/datasets/huggingface/badges/raw/main/duplicate-this-space-sm-dark.svg)](https://huggingface.co/spaces/r3gm/Ultimate-Vocal-Remover-WebUI?duplicate=true)\n\n"
             ) 
             with gr.Tabs():
-                with gr.TabItem("process"):
+                with gr.TabItem("Process"):
                     with gr.Row():
                         self.arch_choice = gr.Dropdown(
                             choices=[VR_ARCH_TYPE, MDX_ARCH_TYPE], value=VR_ARCH_TYPE, # choices=[VR_ARCH_TYPE, MDX_ARCH_TYPE, DEMUCS_ARCH_TYPE], value=VR_ARCH_TYPE,
@@ -187,9 +187,9 @@ class UVRWebUI:
                     with gr.Row():
                         self.out_message = gr.Textbox(label="Output Message", interactive=False, show_progress=False)
 
-                with gr.TabItem("settings"):
+                with gr.TabItem("Settings"):
                     with gr.Tabs():
-                        with gr.TabItem("Additional Settigns"):
+                        with gr.TabItem("Additional Settings"):
                             self.wav_type = gr.Dropdown(choices=WAV_TYPE, label="Wav Type", value="PCM_16", interactive=True)
                             self.mp3_rate = gr.Dropdown(choices=MP3_BIT_RATES, label="MP3 Bitrate", value="320k",interactive=True)
                             
