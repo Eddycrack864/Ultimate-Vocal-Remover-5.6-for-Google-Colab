@@ -223,6 +223,8 @@ model_dict = webui.models_url
 import os
 import wget
 
+print("Downloading models...")
+
 for category, models in model_dict.items():
     if category in ['VR Arc', 'MDX-Net']:
         if category == 'VR Arc':
@@ -230,11 +232,10 @@ for category, models in model_dict.items():
         elif category == 'MDX-Net':
             model_path = 'models/MDX_Net_Models'
         for model_name, model_url in models.items():
-            print("Downloading models...")
             cmd = f"aria2c --optimize-concurrent-downloads --summary-interval=10 -j5 -x16 -s16 -k1M -c -q -d {model_path} -Z {model_url}"
             os.system(cmd)
 
-print("Models downloaded successfully.")
+print("Models downloaded successfully!!!")
 print("Starting WebUI...")
 webui = UVRWebUI(uvr, online_data_path='models/download_checks.json')
 webui.launch(share=True)
