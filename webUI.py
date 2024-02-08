@@ -145,7 +145,7 @@ class UVRWebUI:
             self.app = app
             gr.HTML("<h1> 🎵 UVR 5.6 🎵 </h1>")
             gr.Markdown("## Space created by [Not Eddy (Spanish Mod)](http://discord.com/users/274566299349155851) in [AI HUB](https://discord.gg/aihub). Credits to r3gm for making part of the GUI.")
-            gr.Markdown("## You can use this into a Hugging Face Space [here](). If you liked the space you can give it a 💖 and star my repo on [GitHub](https://github.com/Eddycrack864/UVR5-5.6-for-Colab).")
+            gr.Markdown("## You can use this into a Hugging Face Space [here](https://huggingface.co/spaces/Eddycrack864/UVR5). If you liked the space you can give it a 💖 and star my repo on [GitHub](https://github.com/Eddycrack864/UVR5-5.6-for-Colab).")
             with gr.Tabs():
                 with gr.TabItem("Process"):
                     with gr.Row():
