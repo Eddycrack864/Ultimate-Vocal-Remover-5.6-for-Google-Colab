@@ -143,11 +143,9 @@ class UVRWebUI:
     def define_layout(self):
         with gr.Blocks() as app:
             self.app = app
-            gr.HTML("<h1> 🎵 Ultimate Vocal Remover WebUI 🎵 </h1>")
-            gr.Markdown("This is an experimental demo with CPU. Duplicate the space for use in private")
-            gr.Markdown(
-                "[![Duplicate this Space](https://huggingface.co/datasets/huggingface/badges/raw/main/duplicate-this-space-sm-dark.svg)](https://huggingface.co/spaces/r3gm/Ultimate-Vocal-Remover-WebUI?duplicate=true)\n\n"
-            ) 
+            gr.HTML("<h1> 🎵 UVR 5.6 🎵 </h1>")
+            gr.Markdown("## Space created by [Not Eddy (Spanish Mod)](http://discord.com/users/274566299349155851) in [AI HUB](https://discord.gg/aihub). Credits to r3gm for making part of the GUI.")
+            gr.Markdown("## You can use this into a Hugging Face Space [here](). If you liked the space you can give it a 💖 and star my repo on [GitHub](https://github.com/Eddycrack864/UVR5-5.6-for-Colab).")
             with gr.Tabs():
                 with gr.TabItem("Process"):
                     with gr.Row():
