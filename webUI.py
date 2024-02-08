@@ -224,6 +224,7 @@ model_dict = webui.models_url
 
 import os
 import wget
+from IPython.display import clear_output
 
 for category, models in model_dict.items():
     if category in ['VR Arc', 'MDX-Net']:
@@ -234,8 +235,10 @@ for category, models in model_dict.items():
         for model_name, model_url in models.items():
             cmd = f"aria2c --optimize-concurrent-downloads --console-log-level=error --summary-interval=10 -j5 -x16 -s16 -k1M -c -d {model_path} -Z {model_url}"
             os.system(cmd)
-
         print("Models downloaded successfully.")
+
+clear_output()
+print("Starting WebUI...")
 
 webui = UVRWebUI(uvr, online_data_path='models/download_checks.json')
 webui.launch(share=True)
