@@ -228,7 +228,7 @@ import os
 import wget
 
 for category, models in model_dict.items():
-    if category in ['VR Arc', 'MDX-Net', 'Demucs']:
+    if category in ['VR Arc', 'MDX-Net']:
         if category == 'VR Arc':
             model_path = 'models/VR_Models'
         elif category == 'MDX-Net':
@@ -238,9 +238,6 @@ for category, models in model_dict.items():
             os.system(cmd)
 
         print("Models downloaded successfully.")
-
-
-
 
 webui = UVRWebUI(uvr, online_data_path='models/download_checks.json')
 webui.launch(share=True)
