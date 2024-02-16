@@ -14,6 +14,10 @@ Any type of contribution is welcome 💖
 
 If you liked the repository for Google Colab as well as the Hugging Face space, you can like my space on Hugging Face and star this repository. I will appreciate a lot 💖💖💖
 
+You can donate to the original UVR5 project here:
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/uvr5)
+
 ## To-Do List
 - Add Demucs Models
 - Fix UVR-BVE-4B_SN-44100-1 (Back vocals model) model
