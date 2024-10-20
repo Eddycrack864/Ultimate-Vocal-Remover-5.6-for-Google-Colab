@@ -1,4 +1,6 @@
-# 🎵 **Ultimate Vocal Remover 5.6 for Google Colab** 🎵
+# 🎵 **Ultimate Vocal Remover 5.6 for Google Colab** 🎵 (OUTDATED)
+
+# Please refer to this repositories: [UVR5 NO UI](https://github.com/Eddycrack864/UVR5-NO-UI) & [UVR5 UI](https://github.com/Eddycrack864/UVR5-UI)
 
 [![Open In Collab](https://img.shields.io/badge/google_colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/Eddycrack864/Ultimate-Vocal-Remover-5.6-for-Google-Colab/blob/main/Ultimate_Vocal_Remover_5_6_for_Google_Colab.ipynb)
 
